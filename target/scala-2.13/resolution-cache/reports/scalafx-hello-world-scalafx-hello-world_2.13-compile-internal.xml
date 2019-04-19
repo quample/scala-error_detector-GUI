@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scalafx-hello-world"
+		module="scalafx-hello-world_2.13"
+		revision="11-R16"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190416160145"/>
+	<dependencies>
+		<module organisation="org.openjfx" name="javafx-web">
+			<revision name="11" status="release" pubdate="20180913143042" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2808" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-web\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/11/javafx-web-11.pom"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<artifacts>
+					<artifact name="javafx-web" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="23263931" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-web\jars\javafx-web-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/11/javafx-web-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-swing">
+			<revision name="11" status="release" pubdate="20180913143007" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2672" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-swing\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11/javafx-swing-11.pom"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<artifacts>
+					<artifact name="javafx-swing" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="119848" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-swing\jars\javafx-swing-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11/javafx-swing-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-media">
+			<revision name="11" status="release" pubdate="20180913142946" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2672" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-media\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11.pom"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<caller organisation="org.openjfx" name="javafx-web" conf="default, compile, runtime, master" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<artifacts>
+					<artifact name="javafx-media" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="1083912" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-media\jars\javafx-media-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-fxml">
+			<revision name="11" status="release" pubdate="20180913142907" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-fxml\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11/javafx-fxml-11.pom"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<artifacts>
+					<artifact name="javafx-fxml" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="127394" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-fxml\jars\javafx-fxml-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11/javafx-fxml-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-controls">
+			<revision name="11" status="release" pubdate="20180913142850" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2678" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-controls\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11.pom"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<caller organisation="org.openjfx" name="javafx-fxml" conf="default, compile, runtime, master" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<caller organisation="org.openjfx" name="javafx-web" conf="default, compile, runtime, master" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<artifacts>
+					<artifact name="javafx-controls" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="2511103" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-controls\jars\javafx-controls-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-graphics">
+			<revision name="11" status="release" pubdate="20180913142924" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2674" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-graphics\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11.pom"/>
+				<caller organisation="org.openjfx" name="javafx-media" conf="default, compile, runtime, master" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<caller organisation="org.openjfx" name="javafx-swing" conf="default, compile, runtime, master" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<caller organisation="org.openjfx" name="javafx-controls" conf="default, compile, runtime, master" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<artifacts>
+					<artifact name="javafx-graphics" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="6016908" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-graphics\jars\javafx-graphics-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-base">
+			<revision name="11" status="release" pubdate="20180913142830" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2492" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-base\ivy-11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11.pom"/>
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11-R16"/>
+				<caller organisation="org.openjfx" name="javafx-graphics" conf="compile, runtime" rev="11" rev-constraint-default="11" rev-constraint-dynamic="11" callerrev="11"/>
+				<artifacts>
+					<artifact name="javafx-base" type="jar" ext="jar" extra-classifier="win" status="no" details="" size="750040" time="0" location="C:\Users\adac\.ivy2\cache\org.openjfx\javafx-base\jars\javafx-base-11-win.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-win.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalafx" name="scalafx_2.13">
+			<revision name="11-R16" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="11-R16" rev-constraint-default="11-R16" rev-constraint-dynamic="11-R16" callerrev="11-R16"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.13" conf="compile-internal, compile, provided, optional" rev="2.13" rev-constraint-default="2.13" rev-constraint-dynamic="2.13" callerrev="11-R16"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

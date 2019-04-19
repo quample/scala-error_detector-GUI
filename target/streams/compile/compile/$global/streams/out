@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala:96:34: value ALWAYS in object ScrollBarPolicy is deprecated (since 8.0.60-R10): Use Always; ALWAYS will be removed in a future release[0m
+[0m[[0m[33mwarn[0m] [0m[0m    vbarPolicy = ScrollBarPolicy.ALWAYS[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala:97:34: value AS_NEEDED in object ScrollBarPolicy is deprecated (since 8.0.60-R10): Use AsNeeded; AS_NEEDED will be removed in a future release[0m
+[0m[[0m[33mwarn[0m] [0m[0m    hbarPolicy = ScrollBarPolicy.AS_NEEDED[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala:103:34: value ALWAYS in object ScrollBarPolicy is deprecated (since 8.0.60-R10): Use Always; ALWAYS will be removed in a future release[0m
+[0m[[0m[33mwarn[0m] [0m[0m    vbarPolicy = ScrollBarPolicy.ALWAYS[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala:104:34: value AS_NEEDED in object ScrollBarPolicy is deprecated (since 8.0.60-R10): Use AsNeeded; AS_NEEDED will be removed in a future release[0m
+[0m[[0m[33mwarn[0m] [0m[0m    hbarPolicy = ScrollBarPolicy.AS_NEEDED[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
