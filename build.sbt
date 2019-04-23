@@ -1,12 +1,13 @@
 // Name of the project
-name := "ScalaFX Hello World"
+name := "Scala Code Analyzer"
 
 // Project version
-version := "11-R16"
+version := "0.1"
 
 // Version of Scala used by the project
 scalaVersion := "2.12.7"
-
+// Add dependency on ScalaMeta library
+libraryDependencies += "org.scalameta" %% "scalameta" % "4.1.0"
 // Add dependency on ScalaFX library
 libraryDependencies += "org.scalafx" %% "scalafx" % "11-R16"
 resolvers += Resolver.sonatypeRepo("snapshots")

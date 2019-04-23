@@ -1,4 +1,4 @@
-
+import scala.meta._
 import scalafx.Includes._
 import scalafx.application.JFXApp
 import scalafx.scene.layout.HBox
@@ -19,11 +19,12 @@ import scalafx.scene.paint._
 import scalafx.stage._
 import scala.io.Source
 import scala.io.Source._
+import java.nio.file.Path
 
-
-object ScalaFXHelloWorld2 extends JFXApp {
+object ScalaCodeAnalyzerMain extends JFXApp {
    
     var lines = ""
+    var exampleTreeStruct = ""
     var input_text = new TextArea(){
         //vgrow = Priority.Always
         wrapText = true
@@ -53,12 +54,20 @@ object ScalaFXHelloWorld2 extends JFXApp {
             new MenuItem("New"),
             new MenuItem("Open"){
                 onAction = (ae : ActionEvent) =>  {
+
                     val file_src = fileChooser.showOpenDialog(stage)
                     if (file_src != null) {
                         //openFile(file_src);
-                        lines = fromFile(file_src).mkString
-                        println(lines)
-                        input_text.text = lines
+                            val path = file_src.toPath()
+                            val bytes = java.nio.file.Files.readAllBytes(path)
+                            val text = new String(bytes, "UTF-8")
+                            val input = Input.VirtualFile(path.toString, text)
+                            val exampleTree = input.parse[Stat].get
+                            exampleTreeStruct = exampleTree.structure
+                            //println(exampleTreeStruct)
+                            lines = fromFile(file_src).mkString
+                            //println(lines)
+                            input_text.text = lines 
                                                 
                     }
                 }
@@ -80,14 +89,38 @@ object ScalaFXHelloWorld2 extends JFXApp {
         )
     }
 
+    val show_ast_btn = new Button("show AST"){
 
+    
+        onAction = (ast_event : ActionEvent) => {
+                    output_text.clear()
+                    println("Button clicked")
+                    //println(exampleTreeStruct)
+                    output_text.text = exampleTreeStruct
+    
+
+            }
+    }
+    val process_btn = new Button("process"){
+    onAction = (proc_event : ActionEvent) =>{
+                output_text.clear()
+            }
+    }
+    val in_clr_btn = new Button("clear input"){
+        onAction = (in_clr_event : ActionEvent) => {
+            input_text.clear()
+        }
+    }
+    val out_clr_btn = new Button("clear output"){
+        onAction = (out_clr_event : ActionEvent) => {
+            output_text.clear()
+        }
+    }
     val button_content = new HBox{
         padding = Insets(50, 80, 50, 80)
         spacing = 20
         children = Seq(
-            new Button("process"){
-
-            },
+            in_clr_btn, show_ast_btn,process_btn, out_clr_btn,
         )
         alignment = Pos.Center
     }
@@ -127,7 +160,7 @@ object ScalaFXHelloWorld2 extends JFXApp {
 
   stage = new JFXApp.PrimaryStage {
         scene = myScene
-        title = "ScalaStaticE"       
+        title = "Scala Code Analyzer v_0.1"       
   }
     stage.show
 }

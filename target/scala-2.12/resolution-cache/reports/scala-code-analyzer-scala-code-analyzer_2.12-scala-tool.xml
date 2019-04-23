@@ -2,18 +2,18 @@
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
 	<info
-		organisation="scalafx-hello-world"
-		module="scalafx-hello-world_2.12"
-		revision="11-R16"
+		organisation="scala-code-analyzer"
+		module="scala-code-analyzer_2.12"
+		revision="0.1"
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190423123210"/>
+		date="20190423154407"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.12.7" status="release" pubdate="20180927043727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="3080" time="0" location="C:\Users\adac\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/adac/.sbt/preloaded/org.scala-lang/scala-compiler/2.12.7/ivys/ivy.xml"/>
-				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.12" conf="scala-tool" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="11-R16"/>
+				<caller organisation="scala-code-analyzer" name="scala-code-analyzer_2.12" conf="scala-tool" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="10478558" time="0" location="C:\Users\adac\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.7.jar">
 						<origin-location is-local="false" location="file:/C:/Users/adac/.sbt/preloaded/org.scala-lang/scala-compiler/2.12.7/jars/scala-compiler.jar"/>
@@ -62,8 +62,8 @@
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2642" time="0" location="C:\Users\adac\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/adac/.sbt/preloaded/org.scala-lang/scala-library/2.12.7/ivys/ivy.xml"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
-				<caller organisation="scalafx-hello-world" name="scalafx-hello-world_2.12" conf="scala-tool" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="11-R16"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
+				<caller organisation="scala-code-analyzer" name="scala-code-analyzer_2.12" conf="scala-tool" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.6"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="C:\Users\adac\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.7.jar">

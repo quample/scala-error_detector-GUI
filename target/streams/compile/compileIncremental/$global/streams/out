@@ -1,24 +1,23 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(C:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(C:\SDCard\RA-Work\codes\scala-error_detector-GUI\src\main\scala\gui\ScalaFXHelloWorld2.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$5.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$15.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$4$$anon$10$$anon$13.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$delayedInit$body.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$7.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$16$$anon$9.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$2.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$4.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$4$$anon$10.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$8.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$3.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$14.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$6.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$4$$anon$12.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$4$$anon$11.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$16.class, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\target\scala-2.12\classes\ScalaFXHelloWorld2$$anon$5$$anon$1.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\SDCard\RA-Work\codes\scala-error_detector-GUI\src\main\scala\gui\GUI_main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ScalaFXHelloWorld2)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set(C:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(ScalaFXHelloWorld2)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\SDCard\RA-Work\codes\scala-error_detector-GUI\src\main\scala\gui\ScalaFXHelloWorld2.scala, C:\SDCard\RA-Work\codes\scalafx-hello-world-master\src\main\scala\hello\ScalaFXHelloWorld2.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\SDCard\RA-Work\codes\scala-error_detector-GUI\target\scala-2.12\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.3:compile for Scala 2.12.7[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.3:compile for Scala 2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler c919148 for Scala compiler version 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 22ccabc6 for Scala compiler version 2.12.7[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
@@ -29,12 +28,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\adac\.sbt\boot\scala-2.12.7\lib\scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\SDCard\RA-Work\codes\scala-error_detector-GUI\target\scala-2.12\classes;C:\Users\adac\.ivy2\cache\org.scalafx\scalafx_2.12\jars\scalafx_2.12-11-R16.jar;C:\Users\adac\.sbt\boot\scala-2.12.7\lib\scala-reflect.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-base\jars\javafx-base-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-controls\jars\javafx-controls-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-graphics\jars\javafx-graphics-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-fxml\jars\javafx-fxml-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-media\jars\javafx-media-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-swing\jars\javafx-swing-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-web\jars\javafx-web-11-win.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 10.7747235 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\SDCard\RA-Work\codes\scala-error_detector-GUI\target\scala-2.12\classes;C:\Users\adac\.ivy2\cache\org.scalameta\scalameta_2.12\jars\scalameta_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\common_2.12\jars\common_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\semanticdb_2.12\jars\semanticdb_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\com.thesamet.scalapb\scalapb-runtime_2.12\jars\scalapb-runtime_2.12-0.8.0-RC1.jar;C:\Users\adac\.ivy2\cache\com.thesamet.scalapb\lenses_2.12\jars\lenses_2.12-0.8.0-RC1.jar;C:\Users\adac\.ivy2\cache\com.lihaoyi\fastparse_2.12\jars\fastparse_2.12-1.0.0.jar;C:\Users\adac\.ivy2\cache\com.lihaoyi\fastparse-utils_2.12\jars\fastparse-utils_2.12-1.0.0.jar;C:\Users\adac\.ivy2\cache\com.lihaoyi\sourcecode_2.12\bundles\sourcecode_2.12-0.1.4.jar;C:\Users\adac\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-3.5.1.jar;C:\Users\adac\.ivy2\cache\org.scalameta\dialects_2.12\jars\dialects_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\parsers_2.12\jars\parsers_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\inputs_2.12\jars\inputs_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\io_2.12\jars\io_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\tokens_2.12\jars\tokens_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\tokenizers_2.12\jars\tokenizers_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\fastparse_2.12\jars\fastparse_2.12-1.0.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\fastparse-utils_2.12\jars\fastparse-utils_2.12-1.0.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\trees_2.12\jars\trees_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\quasiquotes_2.12\jars\quasiquotes_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalameta\transversers_2.12\jars\transversers_2.12-4.1.0.jar;C:\Users\adac\.ivy2\cache\org.scalafx\scalafx_2.12\jars\scalafx_2.12-11-R16.jar;C:\Users\adac\.sbt\boot\scala-2.12.7\lib\scala-reflect.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-base\jars\javafx-base-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-controls\jars\javafx-controls-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-graphics\jars\javafx-graphics-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-fxml\jars\javafx-fxml-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-media\jars\javafx-media-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-swing\jars\javafx-swing-11-win.jar;C:\Users\adac\.ivy2\cache\org.openjfx\javafx-web\jars\javafx-web-11-win.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 17.273885 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

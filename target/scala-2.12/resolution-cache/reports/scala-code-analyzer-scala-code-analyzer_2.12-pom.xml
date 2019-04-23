@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
 	<info
-		organisation="scalafx-hello-world"
-		module="scalafx-hello-world_2.12"
-		revision="11-R16"
-		conf="optional"
+		organisation="scala-code-analyzer"
+		module="scala-code-analyzer_2.12"
+		revision="0.1"
+		conf="pom"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190423123210"/>
+		date="20190423154407"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
