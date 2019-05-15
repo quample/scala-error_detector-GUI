@@ -1,12 +1,12 @@
-scalafx-hello-world
+scala-error-detector-gui
 ===================
 
-Simple example of a ScalaFX application using [Simple-Build-Tool](http://www.scala-sbt.org/) (SBT).
+The GUI for the scala error detector using ScalaFX library and built using [Simple-Build-Tool](http://www.scala-sbt.org/) (SBT).
 
 Content
 -------
 
-* `src/main/scala/hello/ScalaFXHelloWorld.scala` - sample ScalaFX application.
+* `src/main/scala/gui/GUI_main.scala` - GUI ScalaFX application.
 * `build.sbt` - the main SBT configuration file.
 * `project/build.properties` - version of SBT to use.
 * `project/plugins.sbt` - plugins used for creation of IDEA and Eclipse projects.
